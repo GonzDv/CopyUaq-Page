@@ -1,0 +1,21 @@
+
+.panel-header{
+    align-items: center;
+    justify-content: center;
+}
+
+.imgCarLocal, .d-block{
+    width: 1200;
+    height: 500px;
+}
+.list-group-item{
+    width: 300px;
+}
+.contacto{
+    width: 350px;
+    height: 250px;
+}
+.horario{
+    width: 350px;
+    height: 250px;
+}
