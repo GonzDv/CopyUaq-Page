@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <title>Copy UAQ</title>
+</head>
+<body class="">
+    <!-- Inicio menu -->
+    <header class=""> 
+      <nav class="navbar navbar-expand-md navbar-dark bg-black" with>
+        
+
+            <!-- icon -->
+            <a class="navbar-brand" href="#">
+                <i class="bi bi-c-circle ms-4 ms-sm-4 h2"></i>
+                <span class="text-danger display-6">COPYUAQ</span>
+            </a>
+                <!-- btn menu -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#show-menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- collapse menu -->
+                <div class="collapse navbar-collapse ps-3" id="show-menu">
+                    <ul class="navbar-nav ms-auto me-3" >
+                        <li class="nav-item active">
+                            <a class="nav-link fw-normal pe-5" href="#Trabajos" >Trabajos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link bi-whatsapp link-success fw-medium pe-5" href="#Contacto">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-normal" href="#ubicacion" >Ubicanos</a>
+                        </li>
+                    </ul>
+                </div>
+            
+        
+    </nav>
+    </header>
+    
+
+      
+    <div class=" d-flex align-items-center justify-content-center flex-column" >
+
+      <!-- inicio panel -->
+      <div class="panelInicio">
+          <div class=" d-flex align-items-center justify-content-center flex-column p-xxl-5">
+              <h1 class="display-1">COPYUAQ</h1>
+              <p>COPYUAQ Niños Heroes</p>
+              <a href="#Contacto"><button type="button" class="btn btn-success">Contactanos</button></a>
+          </div>
+
+          <div id="imgCarLocal" class="carousel slide ">
+              <div class="carousel-inner">
+                <div class="carousel-item active c-item">
+                  <img src="/img local/img-lobby.jpeg" class="d-block img-fluid w-100 c-img"  alt="Imagen de el lobby">
+                </div>
+                <div class="carousel-item c-item">
+                  <img src="/img local/im-lobby2.jpeg" class="d-block img-fluid w-100 c-img" width="800" height="400" alt="Imagen secundaria de el lobby">
+                </div>
+                <div class="carousel-item c-item">
+                  <img src="/img local/img-computadoras.jpeg" class="d-block  img-fluid w-100 c-img" width="800" height="400" alt="Zona de computadoras">
+                </div>
+                <div class="carousel-item c-item">
+                  <img src="/img local/img-dentro.jpeg" class="d-block  img-fluid w-100 c-img" width="800" height="400" alt="CopyUaq por dentro">
+                </div>
+                <div class="carousel-item c-item">
+                  <img src="/img local/img-mostrador.jpeg" class="d-block  img-fluid w-100 c-img" width="800" height="400" alt="mostrador">
+                </div>
+                <div class="carousel-item c-item">
+                  <img src="/img local/img-fachada.jpeg" class="d-block  img-fluid w-100 c-img" width="800" height="400" alt="Imagen de la Facaha">
+                </div>
+                
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#imgCarLocal" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#imgCarLocal" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+        </div>
+        <hr>
+    </div>   
+            <!-- inicio tarjeta de trabajos hechos -->
+            <h3 id="Trabajos"class="mt-5">Trabajos que hemos hecho</h3>
+        <div class=" ">
+
+            <div class="card " 
+            style="width: 450px; 
+            height: 20rem;">
+                <img src="src/trabajo1.png" class="card-img-top p" alt="...">
+                <div class="card-body">
+                <p class="card-text">Pequeña explicacion sobre el trabajo.</p>
+                </div>
+            </div>
+
+            <div class="card" 
+            style="width: 450px;
+            height: 20rem;">
+                <img src="src/trabajo1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Pequeña explicacion sobre el trabajo.</p>
+                </div>
+            </div>
+
+            <div class="card" 
+            style="width: 450px;
+            height: 20rem;">
+                <img src="src/trabajo1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Pequeña explicacion sobre el trabajo.</p>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <!-- inicia datos de ubicacion  -->
+        <h4 id="ubicacion">Comunicate con nosotros</h4>
+        <hr>
+        <!-- mapa -->
+         <div class="map" >
+          <iframe
+          width="650"
+          height="450"
+          frameborder="0" style="border:0"
+          referrerpolicy="no-referrer-when-downgrade"
+          src="https://www.google.com/maps/embed/v1/place?key=AIzaSyABVfJGGcRWHMXpe7Yms_vmO_uMv-pCLII&q=Mi Examen&center=20.589018118581524, -100.40986202475436&zoom=16&maptype=roadmap"
+          allowfullscreen title="El mapa muestra la ubicacion de la empresa">
+          </iframe>
+          <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d933.7442889223399!2d-100.41052453038571!3d20.588990498809526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d35accc126a7c1%3A0xa6ac604d9a800021!2sMi%20Examen!5e0!3m2!1ses-419!2smx!4v1686023222520!5m2!1ses-419!2smx&zoom=16" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"  title="El mapa muestra la ubicacion de la empresa"></iframe>   -->
+          </div>
+
+            <!-- informacion de contacto -->
+            <div class="d-flex align-items-center justify-content-between m-5"> 
+            <!-- Horarios -->
+              <div class="horario d-flex flex-column align-items-center"> 
+                <h4 class="">Horarios</h4>
+                <ul class="list-group">
+                  <li class="list-group-item">Lunes a Viernes: 07:00 am 09:00 pm</li>
+                  <li class="list-group-item">Sabado: 08:00 am - 07:00 pm</li>
+                  <li class="list-group-item">Domingo: 11:00 am - 06:00 pm</li>
+                  <!-- <li class="list-group-item">A fourth item</li>
+                  <li class="list-group-item">And a fifth one</li> -->
+                </ul>
+              </div>
+              <!-- Contacto -->
+              <div class="contacto d-flex flex-column  align-items-center"> 
+                <h4 id="Contacto" class="">Contacto</h4>
+                <button class="btn btn-success p-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Informacion de Contacto</button>
+                <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+                  <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Numeros de contacto</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </div>
+                  <div class="offcanvas-body">
+
+                    <p>Este numero <a class="text-decoration-none " href="tel:">4429016402</a> es fijo, por lo que solo recibimos llamas para levantar pedidos  </p>
+
+                    <p>Y a este numero <a class="text-decoration-none text-success" href="https://wa.me/+5214426147042?text=Me%20gustaria%20hacer%20una%cotización" target="_blank">442 614 7042</a> es de whatsapp en donde nos debe mandar los documentos a imprimir una vez que llamo para levantar su pedido</p>
+                    <div class="d-flex align-items-start flex-column "> 
+
+                      <a href="https://wa.me/+5214426147042?text=Me%20gustaria%20hacer%20un%pedido" target="_blank"><button class="btn btn-success m-2">Hacer Pedido</button> </a> 
+
+                      <a href="https://wa.me/+5214426147042?text=Me%20gustaria%20hacer%20una%cotización" target="_blank"><button class="btn btn-dark m-2">Pedir Cotización</button> </a> 
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+        
+      
+      <script src="script.js"></script>
+      <script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyABVfJGGcRWHMXpe7Yms_vmO_uMv-pCLII&callback=initMap">
+</script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js">
+      
+    </script>
+</body>
+</html>

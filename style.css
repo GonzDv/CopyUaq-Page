@@ -1,12 +1,21 @@
-
+body {
+    width: auto;
+    margin: 0;
+    padding: 0;
+}
+header {
+    width: 100%;
+}
 .panel-header{
     align-items: center;
     justify-content: center;
 }
-
-.imgCarLocal, .d-block{
-    width: 1200;
-    height: 500px;
+.c-img {
+    aspect-ratio: 16 / 9;
+}
+.carousel-inner img{
+    overflow: hidden;
+    object-fit: cover;
 }
 .list-group-item{
     width: 300px;
@@ -18,4 +27,58 @@
 .horario{
     width: 350px;
     height: 250px;
+}
+.c-item {
+    height: 780px;
+}
+.c-img{
+    height: 100%;
+    
+}
+.w-100 {
+    width: 1500px;
+    height: 300px;
+}
+
+@media screen and (max-width: 1400px) and (min-width:820px){
+    img {
+        object-fit: cover;
+    }
+    .carousel-inner, .carousel, .carousel-control-prev{
+        height: 550px;
+    }
+}
+
+@media screen and (max-width: 819px) {
+    .carousel-inner, .carousel, .carousel-control-prev{
+        height: 450px;
+    }
+    
+}
+
+@media screen and (max-width: 625px) {
+    
+    .card-text{
+        font-size: 12px;
+    }
+    .carousel-inner, .carousel{
+        height: 250px;
+    }
+}
+@media screen and (max-width: 660px) {
+    
+    .map iframe {
+        width: 450px;
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 470px) and (min-width:330px) {
+    .carousel-inner, .carousel{
+        height: 250px;
+    }
+    .map iframe {
+        width: 290px;
+        height: 320px;
+    }
 }
