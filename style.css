@@ -50,8 +50,19 @@ header {
 }
 
 @media screen and (max-width: 819px) {
-    .carousel-inner, .carousel, .carousel-control-prev{
+    .carousel-inner, .carousel{
         height: 450px;
+    }
+    .carousel-control-prev, .carousel-control-next {
+        height: 380px;
+        margin-top: 40px;
+    }
+    
+    .carousel-control-prev-icon {
+        margin-left: 50px;
+    }
+    .carousel-control-next-icon {
+        margin-right: 50px;
     }
     
 }
@@ -61,8 +72,19 @@ header {
     .card-text{
         font-size: 12px;
     }
-    .carousel-inner, .carousel{
-        height: 250px;
+    .carousel-inner, .carousel {
+        height: 350px;
+    }
+    .carousel-control-prev, .carousel-control-next {
+        height: 300px;
+        margin-top: 40px;
+    }
+    
+    .carousel-control-prev-icon {
+        margin-left: 50px;
+    }
+    .carousel-control-next-icon {
+        margin-right: 50px;
     }
 }
 @media screen and (max-width: 660px) {
@@ -73,12 +95,41 @@ header {
     }
 }
 
-@media screen and (max-width: 470px) and (min-width:330px) {
+@media screen and (max-width: 480px) and (min-width:320px) {
     .carousel-inner, .carousel{
         height: 250px;
     }
+    .carousel-control-prev, .carousel-control-next {
+        height: 190px;
+        margin-top: 40px;
+    }
+    .carousel-control-prev{
+        margin-left: 20px;
+    } 
+    .carousel-control-next {
+        margin-right: 20px;
+    }
+    .carousel-control-prev-icon , .carousel-control-next-icon {
+        width: 20px;
+        height: 24px;
+    } 
     .map iframe {
         width: 290px;
         height: 320px;
     }
+    .contacto {
+        flex-wrap: wrap;
+    }
+    .inforCont, .trabajosCards, .card {
+        flex-wrap: wrap;
+        margin: 10px;
+    }
+    .card-img-top {
+        height: 150px;
+        
+    }
+    .fs-5 {
+        font-size: 12px;
+    }
+
 }
